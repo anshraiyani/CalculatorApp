@@ -1,2 +1,3 @@
 # CalculatorApp
-frontend project using html, css and javascript
+frontend project using HTML, CSS and Javascript.
+## Live Demo: https://anshraiyani.github.io/CalculatorApp/
