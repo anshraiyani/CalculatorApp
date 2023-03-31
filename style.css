@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+    margin-top: 15px;
+  background: rgb(164, 6, 143);
+  background: linear-gradient(
+    90deg,
+    rgba(164, 6, 143, 1) 4%,
+    rgba(136, 32, 157, 1) 16%,
+    rgba(125, 61, 186, 1) 43%,
+    rgba(105, 86, 208, 1) 61%,
+    rgba(0, 247, 255, 1) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+  width: 100vw;
+}
+
+h1{
+    font-size: 50px;
+    color: rgb(234, 203, 207);
+}
+
+.calculator{
+    margin-top: 40px;
+    background: rgba(163, 104, 236, 0.5);
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.first-row{
+    display: flex;
+    align-items: center;
+}
+
+.screen{
+    width: 235px;
+    height: 70px;
+    margin-right: 10px;
+    margin-left: 7px;
+    background: rgba(39, 31, 43, 0.5);
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.previous-value{
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.current-value{
+    font-size: 30px;
+    margin-right: 5px;
+}
+
+button{
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+    font-size: 25px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
